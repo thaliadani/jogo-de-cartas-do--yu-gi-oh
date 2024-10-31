@@ -1,0 +1,7 @@
+@import url(./reset.css);
+
+:root{
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
+    --cor-primaria: #FF577F;
+}
