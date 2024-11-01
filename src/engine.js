@@ -124,6 +124,14 @@ async function drawButton(text) {
     state.actions.button.style.display = "block";
 }
 
+async function playAudio(status) {
+    const audio = new Audio(`../assets/audios/${status}.wav`);
+
+    try {
+        audio.play();
+    } catch {}
+}
+
 async function checkDuelResult(playerCardId, computerCardId) {
     let duelResults = "Draw";
     let playerCard = cardData[playerCardId];
@@ -173,14 +181,6 @@ async function resetDuel() {
     state.fieldCards.computer.style.display = "none";
 
     init();
-}
-
-async function playAudio(status) {
-    const audio = new Audio(`../assets/audios/${status}.wav`);
-
-    try {
-        audio.play();
-    } catch {}
 }
 
 function init() {
