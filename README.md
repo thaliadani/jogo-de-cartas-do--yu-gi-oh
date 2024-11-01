@@ -1,8 +1,8 @@
 <div align="center">
-
 <h1>Jogo de Cartas do Yu Gi Oh</h1>
-
 </div>
+
+<h3>Jogo Pedra, papel e tesoura estilo Yu Gi Oh</h3>
 
 <div>
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
